@@ -8,6 +8,12 @@ router.get("/", function (req, res, next) {
   });
 });
 
+router.get("/about-us", function (req, res, next) {
+  res.sendFile("public/about-us.html", {
+    root: "./",
+  });
+});
+
 router.get("/our-menu", function (req, res, next) {
   res.sendFile("public/our-menu.html", {
     root: "./",

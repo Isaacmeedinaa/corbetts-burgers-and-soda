@@ -1,0 +1,9 @@
+.mobile-menu {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 30px 20px 30px 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}

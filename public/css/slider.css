@@ -1,0 +1,12 @@
+.fade-in {
+  -webkit-transition: background-image 0.8s ease-in-out;
+  transition: background-image 0.8s ease-in-out;
+}
+
+.heading-center {
+  transition: all 0.8s ease;
+}
+
+.heading-center.hide {
+  opacity: 0;
+}

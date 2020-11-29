@@ -8,25 +8,25 @@ router.get("/", function (req, res, next) {
   });
 });
 
-router.get("/about-us", function (req, res, next) {
+router.get("/about-us.html", function (req, res, next) {
   res.sendFile("public/about-us.html", {
     root: "./",
   });
 });
 
-router.get("/our-menu", function (req, res, next) {
+router.get("/our-menu.html", function (req, res, next) {
   res.sendFile("public/our-menu.html", {
     root: "./",
   });
 });
 
-router.get("/gallery", function (req, res, next) {
+router.get("/gallery.html", function (req, res, next) {
   res.sendFile("public/gallery.html", {
     root: "./",
   });
 });
 
-router.get("/contact-us", function (req, res, next) {
+router.get("/contact-us.html", function (req, res, next) {
   res.sendFile("public/contact-us.html", {
     root: "./",
   });

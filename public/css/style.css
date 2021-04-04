@@ -21221,7 +21221,6 @@ body.sidemenu-active #pp-nav.right {
   margin-bottom: 2px;
   line-height: 1em;
   text-transform: uppercase;
-  letter-spacing: -0.05em;
 }
 @media only screen and (max-width: 1199px) {
   .app-download-block .app-download-content .app-title {
@@ -25664,6 +25663,10 @@ body.sidemenu-active #pp-nav.right {
     height: 400px;
   }
 }
+
+.contact-form-area-two {
+}
+
 .contact-block.style-two .contact-form-area {
   top: 100px;
   -webkit-transform: translateY(0);
@@ -25794,6 +25797,15 @@ body.sidemenu-active #pp-nav.right {
   z-index: 2;
   border-radius: 15px;
 }
+
+
+.contact-block-two .contact-form-area-two {
+  width: 470px;
+  height: auto;
+  z-index: 2;
+  border-radius: 15px;
+}
+
 @media only screen and (max-width: 1199px) {
   .contact-block .contact-form-area {
     left: calc(50% - 465px);
